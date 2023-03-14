@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l > ls_cwd_content
+find . -mindepth 1 -type d | wc -l
